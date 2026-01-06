@@ -77,6 +77,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Listele";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtCustomerName
             // 
@@ -192,6 +193,7 @@
             this.button3.TabIndex = 14;
             this.button3.Text = "Sil";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -204,6 +206,7 @@
             this.button4.TabIndex = 15;
             this.button4.Text = "Güncelle";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // dataGridView1
             // 
